@@ -6,7 +6,7 @@ const countBtn = document.querySelector(".count");
 const costInfo = document.querySelector(".cost-info");
 const cost = document.querySelector(".cost");
 
-const check = () => {
+const showBill = () => {
 	if (price.value == "" || people.value == "" || tip.value == 0) {
 		error.textContent = "Uzupełnij wszystkie dane!";
 		costInfo.style.display = "none";
